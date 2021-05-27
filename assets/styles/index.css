@@ -132,10 +132,12 @@ p {
 
 .pt-160 {
     padding-top:16%;
+   
 }
 
 .pt-200 {
   padding-top:20%;
+
 }
 
 .btn {
@@ -521,13 +523,7 @@ p {
     bottom: 2% !important;
   }
 
-  .pt-150 {
-    padding-top: 8%;
-  }
-
-  .pt-160 {
-    padding-top:12%;
-  }
+ 
  
 
   .podcast {
@@ -656,9 +652,23 @@ p {
 }
 
 
-@media screen and (max-width:1440px) {
-  body {
-    height:auto !important;
-    min-height: 100vh !important;
+@media screen and (max-height:769px) {
+  .pt-150 {
+    padding-top:4%;
+  }
+
+  .pt-160 {
+    padding-top:4%;
+  }
+
+  .slider-6-pht {
+    width:36%;
+    top:17%;
+  }
+
+  .pt-200 {
+    padding-top:6%;
   }
 }
+
+
