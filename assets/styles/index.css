@@ -654,3 +654,11 @@ p {
 
 
 }
+
+
+@media screen and (max-width:1440px) {
+  body {
+    height:auto !important;
+    min-height: 100vh !important;
+  }
+}
