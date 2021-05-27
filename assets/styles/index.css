@@ -499,7 +499,7 @@ p {
   z-index:1;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1681px) {
   .slide-header {
     padding-top: 4%;
   }
@@ -578,8 +578,9 @@ p {
 }
 
 .slider-6-pht {
-    width:38%;
-    top:16%;
+  width: 40%;
+    top: 19%;
+    right:3%;
 }
 
 .slider-6-number {
