@@ -101,6 +101,13 @@ h2 {
     line-height: 49px;
 }
 
+h3 {
+  font-size:3.2em;
+  font-family: 'bradesco_sansregular';
+  color:#fff;
+  line-height: 40px;
+}
+
 p {
   font-family: "bradesco_sansregular";
   color: #fff;
@@ -125,6 +132,10 @@ p {
 
 .pt-160 {
     padding-top:16%;
+}
+
+.pt-200 {
+  padding-top:20%;
 }
 
 .btn {
@@ -461,6 +472,31 @@ p {
     left:-4%;
 }
 
+.finalizar-btn {
+  font-size:1.6em;
+  color:#cc092f;
+  font-family: 'bradesco_sanssemibold';
+  margin-top:100px;
+  padding-left:4%;
+  padding-right:4%;
+}
+
+.finalizar-pht {
+  position:absolute;
+  top:28%;
+  left:17.5%;
+  
+}
+
+.ml-50 {
+  margin-left:50% !important;
+}
+
+
+.z-index {
+  z-index:1;
+}
+
 @media screen and (max-width: 1680px) {
   .slide-header {
     padding-top: 4%;
@@ -541,6 +577,10 @@ p {
     top:53%;
 }
 
+.slider-5-number {
+  top:18%;
+}
+
 .slider-6-pht {
     width:38%;
     top:16%;
@@ -593,5 +633,24 @@ p {
     right:20%;
     top:47%;
 }
+
+.pt-200 {
+  padding-top:8%;
+}
+
+.finalizar-pht {
+  left:12%;
+  top:16%;
+}
+
+
+.ml-50 {
+  margin-left:44% !important;
+}
+
+.finalizar-btn {
+  margin-top:60px;
+}
+
 
 }
