@@ -149,10 +149,6 @@ p {
   padding-bottom: 1%;
 }
 
-.btn:hover {
-  color: #cc092f;
-  
-}
 
 .header-btn {
   font-size: 1.6em;
@@ -207,7 +203,7 @@ p {
   transform: scale(10.5) !important;
   margin-left: 37px !important;
   margin-right: 35px !important;
-  margin-top: 9px !important;
+ 
 }
 
 .splide-active {
@@ -230,9 +226,12 @@ p {
   cursor: pointer;
 }
 
-.btn-reload:hover {
-  transform: scale(1.1);
+.btn-reload-hovering {
+  display:none;
+  cursor: pointer;
 }
+
+
 
 .ratio {
   width: 100%;
@@ -306,6 +305,11 @@ p {
     padding-bottom:1.5%;
 }
 
+.btn-playbook:hover {
+  color:#cc092f;
+  transform: scale(1.02);
+}
+
 .btn-playbook-1 {
     right:31%;
     z-index: 2;
@@ -322,7 +326,7 @@ p {
 
 .slider-3-number {
     left:-4%;
-    top:28%;
+    top:25%;
     position:absolute;
 }
 
@@ -349,6 +353,11 @@ p {
     z-index: 1;
     font-size:1.6em;
     
+}
+
+.btn-playbook-3:hover {
+  transform: scale(1.02);
+  color:#cc092f;
 }
 
 .letter-space {
@@ -384,6 +393,11 @@ p {
     font-size:1.6em;
 }
 
+.btn-infografico-4:hover {
+  transform: scale(1.02);
+  color:#cc092f;
+}
+
 .slider-5-bg-lines {
     position: absolute;
     top: 49%;
@@ -392,8 +406,8 @@ p {
 
 .slider-5-number {
     position:absolute;
-    top:27%;
-    left:0%;
+    top: 23%;
+    left: -3%;
 }
 
 .slider-6-podcast {
@@ -470,7 +484,7 @@ p {
 
 .slider-9-number {
     position:absolute;
-    top:25%;
+    top:23%;
     left:-4%;
 }
 
@@ -499,13 +513,38 @@ p {
   z-index:1;
 }
 
+.btn-inverted-hover {
+  color:#fff !important;
+  background:url(../../assets/images/bkg/btn-inverted.png) no-repeat center !important;
+  background-size:100% 100% !important;
+
+}
+
+.btn-inverted-hover:hover {
+  color:#fff;
+}
+
+.tooltip-inner {
+  background:#cc092f;
+  border-radius:18px;
+  font-size:14px;
+  font-family: 'bradesco_sansbold';
+  text-align: center;
+  max-width: 350px;
+}
+
+ .tooltip-arrow {
+  visibility: hidden !important;
+}
+
+
 @media screen and (max-width: 1681px) {
   .slide-header {
     padding-top: 4%;
   }
 
   .slide-1-start {
-    top: 26%;
+    top: 31%;
     left: 14%;
   }
 
@@ -534,7 +573,7 @@ p {
 
 
 .slider-3-pht-1  {
-    height:75%;
+    height:72%;
     top:18%;
 }
 
@@ -606,12 +645,12 @@ p {
 }
 
 .pt-200 {
-  padding-top:16%;
+  padding-top:20%;
 }
 
 .finalizar-pht {
   left:12%;
-  top:16%;
+  top:25%;
 }
 
 
@@ -624,6 +663,12 @@ p {
 }
 
 
+}
+
+@media screen and (max-width:1441px) {
+  .slider-3-pht-1 {
+    height:70%;
+  }
 }
 
 
@@ -681,6 +726,11 @@ p {
   position:absolute;
   top:18%;
   left:0;
+}
+
+.slide-1-start {
+  top: 24%;
+  left: 14%;
 }
 
 

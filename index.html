@@ -29,7 +29,7 @@
                   com os clientes!
                 </p>
 
-                <button class="btn header-btn semi-bold color-red">
+                <button class="btn header-btn btn-invert semi-bold color-red letter-space">
                   COMEÇAR A JORNADA
                 </button>
               </div>
@@ -53,7 +53,9 @@
                         <img
                           src="./assets/images/icon/icon-reload.png"
                           class="btn-reload img-contain pe-3"
+                          data-index="1"
                         />
+                        <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-1 img-contain pe-3">
                         <img
                           src="./assets/images/icon/icon-right.png"
                           class="img-contain"
@@ -102,7 +104,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="2"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-2 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -117,6 +121,9 @@
                         com os clientes e porque devemos coloca-los no centro de
                         nossas atenções.
                       </p>
+                      <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                        Tooltip on top
+                      </button>
                     </div>
                     <div class="col-6 offset-1">
                       <div class="ratio ratio-2 ratio-16x9">
@@ -141,16 +148,18 @@
                         </div>
                         <img
                           src="./assets/images/icon/mute.png"
+                          data-index="1"
                           class="
                             img-contain
-                            audio-button audio-1-mute
+                            audio-button audio-mute
                             ps-5
                             pe-3
                           "
                         />
                         <img
                           src="./assets/images/icon/play.png"
-                          class="img-contain audio-button audio-1-play pe-2"
+                          class="img-contain audio-button audio-play pe-2"
+                          data-index="1"
                         />
                       </div>
                     </div>
@@ -169,10 +178,10 @@
                 src="./assets/images/bkg/slider-3-bg-geometrico-1.png"
                 class="slider-3-bg-geometrico-1"
               />
-              <button class="btn btn-playbook btn-playbook-1">
+              <button class="btn btn-playbook semi-bold btn-playbook-1">
                 PLAYBOOK - Pt. 1
               </button>
-              <button class="btn btn-playbook btn-playbook-2">
+              <button class="btn btn-playbook semi-bold btn-playbook-2">
                 PLAYBOOK - Pt. 2
               </button>
               <div class="content-1280 position-relative">
@@ -191,7 +200,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="3"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-3 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -245,7 +256,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="4"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-4 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -271,7 +284,7 @@
                         ></iframe>
                       </div>
                       <div class="d-flex justify-content-center">
-                        <button class="btn-playbook-3">
+                        <button class="btn-playbook-3 semi-bold">
                           <span class="letter-space">PLAYBOOK</span> - Mais do
                           que satisfazer, precisamos encantar
                         </button>
@@ -304,7 +317,10 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="5"
+                        
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-5 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -334,7 +350,7 @@
                         ></iframe>
                       </div>
                       <div class="d-flex justify-content-center">
-                        <button class="btn-infografico-4">
+                        <button class="btn-infografico-4 semi-bold">
                           <span class="letter-space">INFOGRÁFICO</span> - Resumo
                           do Vídeo
                         </button>
@@ -347,6 +363,12 @@
           </div>
           <div class="splide__slide">
             <div class="slide position-relative">
+              <audio id="audio-2">
+                <source
+                  src="./assets/audios/file_example_MP3_1MG.mp3"
+                  type="audio/mp3"
+                />
+              </audio>
               <img
                 src="./assets/images/pht/slider-6-pht.png"
                 class="slider-6-pht"
@@ -370,7 +392,10 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="6"
+
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-6 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -409,14 +434,16 @@
                           src="./assets/images/icon/mute.png"
                           class="
                             img-contain
-                            audio-button audio-1-mute
+                            audio-button audio-mute
                             ps-5
                             pe-3
                           "
+                          data-index="2"
                         />
                         <img
                           src="./assets/images/icon/play.png"
-                          class="img-contain audio-button audio-1-play pe-2"
+                          class="img-contain audio-button audio-play pe-2"
+                          data-index="2"
                         />
                       </div>
                     </div>
@@ -451,7 +478,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="7"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-7 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -485,7 +514,7 @@
                         ></iframe>
                       </div>
                       <div class="d-flex justify-content-center">
-                        <button class="btn-infografico-4">
+                        <button class="btn-infografico-4 semi-bold">
                           <span class="letter-space">INFOGRÁFICO</span> - Resumo
                           do Vídeo
                         </button>
@@ -517,7 +546,10 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="8"
+                        
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-8 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -546,7 +578,7 @@
                         ></iframe>
                       </div>
                       <div class="d-flex justify-content-center">
-                        <button class="btn-infografico-4">
+                        <button class="btn-infografico-4 semi-bold">
                           <span class="letter-space">INFOGRÁFICO</span> - Resumo
                           do Vídeo
                         </button>
@@ -582,7 +614,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="9"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-9 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -615,7 +649,7 @@
                         ></iframe>
                       </div>
                       <div class="d-flex justify-content-center">
-                        <button class="btn-infografico-4">
+                        <button class="btn-infografico-4 semi-bold">
                           <span class="letter-space">INFOGRÁFICO</span> - Resumo
                           do Vídeo
                         </button>
@@ -640,7 +674,9 @@
                       <img
                         src="./assets/images/icon/icon-reload.png"
                         class="btn-reload img-contain pe-3"
+                        data-index="10"
                       />
+                      <img src="./assets/images/bkg/reload-hover-btn.png" class="btn-reload-hovering btn-reload-hovering-10 img-contain pe-3">
                       <img
                         src="./assets/images/icon/icon-right.png"
                         class="img-contain"
@@ -656,7 +692,7 @@
                     </div>
                   </div>
                   <div class="d-flex justify-content-center">
-                    <button class="btn finalizar-btn"><span class="letter-space">FINALIZAR</button>
+                    <button class="btn semi-bold btn-invert finalizar-btn"><span class="letter-space">FINALIZAR</button>
                   </div>
                 </div>
               </div>
@@ -669,7 +705,7 @@
     <!--     
     <script src="assets/scripts/scorm_wrapper.js"></script>
     <script src="assets/scripts/scorm-middle.js"></script> -->
-    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
     <script src="assets/scripts/splide.js"></script>
     <script src="assets/scripts/index.js"></script>
   </body>
