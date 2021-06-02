@@ -82,6 +82,7 @@ header p {
   font-size: 1.8em;
   position: absolute;
   top: 75%;
+  width:100%;
   left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
@@ -696,10 +697,179 @@ p {
  
 }
 
+@media screen and (max-width:1361px) {
+  .slide-1-start {
+    left:17%;
+}
+
+.slider-2-number1 {
+  left:1% !important;
+}
+
+.slider-3-number {
+  left:1% !important;
+  
+}
+
+.slider-5-number {
+  left:1% !important;
+}
+
+.slider-6-number {
+  left:1% !important;
+}
+
+.slider-9-number {
+  left:1% !important;
+}
+
+.slider-6-podcast {
+  width:100%;
+}
+
+
+.pt-160 {
+  padding-top:6% !important;
+}
+
+.slider-4-number {
+  left:1% !important;
+}
+
+.finalizar-pht {
+  top:17%;
+}
+
+}
+
+@media screen and (max-width:1281px) {
+  .header-btn {
+    top:90%;
+  }
+
+  .slider-7-number{ 
+    left:1%;
+  }
+
+  .slider-8-number {
+    left:1% !important;
+  }
+
+  .pt-150 {
+    padding-top:7% !important;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .header-logo-mid {
+    width:70%;
+  }
+
+  .splide__pagination {
+    width:60% !important;
+    bottom:3%;
+  }
+
+  .slide-1-start {
+    width:6.5%;
+    left:15.5%;
+    top:31%;
+  }
+
+  h1 {
+    font-size:4em;
+    line-height:46px;
+    margin-bottom:10px;
+  }
+
+  h2 {
+    font-size:3em;
+    line-height:36px;
+  }
+
+  h3 {
+    font-size:2.6em;
+    line-height:30px;
+  }
+
+  p {
+    font-size:1.8em;
+    line-height:26px;
+  }
+
+ .podcast-1 {
+  width:120%;
+  }
+
+  .slider-3-pht-1 {
+    height:60%;
+    right:-4%;
+  }
+
+  .btn-playbook {
+    padding-left:7%;
+  }
+
+  .btn-playbook-1 {
+    top:49%;
+
+  }
+
+  .btn-playbook-2 {
+    top:59%;
+  }
+
+  .slider-3-bg-geometrico-1 {
+    right:-13% !important;
+  }
+
+  .pt-160 {
+    padding-top:10% !important;
+  }
+
+  .btn-playbook-3 {
+    width:125%;
+    padding-left:7%;
+  }
+
+  .slider-4-bg-geometrico-1 {
+    right:-21%;
+    bottom:8%;
+  }
+
+  .btn-infografico-4 {
+    width:100%;
+  }
+
+  .slider-6-podcast {
+    width:110%;
+  }
+
+  .slider-7-bg-geometrico {
+    top:10%;
+    right:20%;
+  }
+}
 
 @media screen and (max-height:801px) {
   .pt-150 {
     padding-top:4%;
+  }
+
+  .smaller-height-pt-1 {
+    padding-top:1% !important;
+  }
+
+  .slider-6-podcast {
+    margin-top:10px;
+  }
+
+  .smaller-height-pt-2 {
+    padding-top:2% !important;
+  }
+
+  .slider-3-bg-geometrico-1 {
+    right:-8%;
   }
 
   .pt-160 {

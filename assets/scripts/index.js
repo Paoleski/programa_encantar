@@ -144,11 +144,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       s.show();
     });
 
-    tooltipTriggerEl.addEventListener("click", () => {
-        const s = new bootstrap.Tooltip(tooltipTriggerEl);
+    // tooltipTriggerEl.addEventListener("click", () => {
+    //     const s = new bootstrap.Tooltip(tooltipTriggerEl);
         
-        s.show();
-      });
+    //     s.show();
+    //   });
   
 
     tooltipTriggerEl.addEventListener("mouseout", () => {
