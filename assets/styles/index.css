@@ -88,6 +88,15 @@ header p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover {
+  color:inherit;
+}
+
 h1 {
   font-size: 4.8em;
   font-family: "bradesco_sansbold";
@@ -712,6 +721,40 @@ p {
     left:17%;
 }
 
+.podcast-1 {
+  width:110%;
+}
+
+.btn-playbook-1 {
+  right:28%;
+  top:54%;
+}
+
+.btn-playbook-2 {
+  right:20%;
+  top:64%;
+}
+
+.slider-3-pht-1 {
+  height:60%;
+}
+
+h1 {
+  font-size:4em;
+  line-height:46px;
+  margin-bottom:10px;
+}
+
+h2 {
+  font-size:3em;
+  line-height:36px;
+}
+
+h3 {
+  font-size:2.6em;
+  line-height:30px;
+}
+
 .slider-3-number {
   left:1% !important;
 }
@@ -742,9 +785,6 @@ p {
 }
 
 
-.pt-160 {
-  padding-top:6% !important;
-}
 
 .slider-4-number {
   left:1% !important;
@@ -790,21 +830,7 @@ p {
     top:31%;
   }
 
-  h1 {
-    font-size:4em;
-    line-height:46px;
-    margin-bottom:10px;
-  }
-
-  h2 {
-    font-size:3em;
-    line-height:36px;
-  }
-
-  h3 {
-    font-size:2.6em;
-    line-height:30px;
-  }
+ 
 
   p {
     font-size:1.8em;
