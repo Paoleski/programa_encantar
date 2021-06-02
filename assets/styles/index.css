@@ -694,12 +694,26 @@ p {
     height:70%;
   }
 
- 
+ .pt-150 {
+   padding-top:8%;
+ }
+
+ .pt-160 {
+   padding-top:8%;
+ }
+
+ .pt-200 {
+   padding-top:12%;
+ }
 }
 
-@media screen and (max-width:1361px) {
+@media screen and (max-width:1367px) {
   .slide-1-start {
     left:17%;
+}
+
+.slider-3-number {
+  left:1% !important;
 }
 
 .slider-2-number1 {
@@ -756,7 +770,7 @@ p {
   }
 
   .pt-150 {
-    padding-top:7% !important;
+    padding-top:5% !important;
   }
 }
 
