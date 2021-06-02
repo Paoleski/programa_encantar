@@ -169,8 +169,8 @@ p {
 .splide__pagination {
   display: none !important;
   bottom: 5% !important;
-  padding-top: 1% !important;
-  padding-bottom: 1% !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
   width: auto !important;
   padding-left: 1% !important;
   padding-right: 1% !important;
@@ -184,6 +184,7 @@ p {
   margin-left: 20px !important;
   margin-right: 20px !important;
   margin-top: 10px !important;
+  position:relative !important;
   margin-bottom: 10px !important;
   background: #fff !important;
   color: #fff !important;
@@ -199,11 +200,15 @@ p {
 
 .splide__pagination__page.is-active {
   background: url(../../assets/images/bkg/active-slide.png) no-repeat center !important;
-  background-size: contain !important;
-  transform: scale(10.5) !important;
-  margin-left: 37px !important;
-  margin-right: 35px !important;
- 
+  background-size: 100% 100% !important;
+  height:45px !important;
+  width:76px !important;
+  border-radius: 42px !important;
+  margin-left:10px !important;
+  margin-right:10px !important;
+  transform: none !important;
+  margin-top:5px !important;
+
 }
 
 .splide-active {
@@ -255,7 +260,7 @@ p {
   background-size: 100% 100%;
   display: flex;
   padding: 2%;
-  margin-top: 6%;
+  margin-top: 5%;
 }
 
 .img-contain {
@@ -524,17 +529,30 @@ p {
   color:#fff;
 }
 
+.tooltip {
+
+}
+
+
+
 .tooltip-inner {
-  background:#cc092f;
+  background:url(../../assets/images/bkg/tooltip-bkg.png) no-repeat center;
+  background-size:100% 100%;
   border-radius:18px;
   font-size:14px;
+  padding-top:15px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:25px;
   font-family: 'bradesco_sansbold';
   text-align: center;
-  max-width: 350px;
+  max-width:350px !important;
+  min-width:180px !important;
+  font-weight:bold;
 }
 
  .tooltip-arrow {
-  visibility: hidden !important;
+  visibility: hidden;
 }
 
 
@@ -544,7 +562,7 @@ p {
   }
 
   .slide-1-start {
-    top: 31%;
+    top: 26%;
     left: 14%;
   }
 
@@ -554,12 +572,17 @@ p {
     margin-top: -5%;
   }
 
-  .splide__pagination__page.is-active {
-    transform: scale(8) !important;
-  }
+
 
   .splide__pagination {
-    bottom: 2% !important;
+    bottom: 1% !important;
+    padding-top:3px !important;
+    padding-bottom:3px !important;
+  }
+
+  .splide__pagination__page.is-active {
+    width:66px !important;
+    height:35px !important; 
   }
 
  
@@ -669,16 +692,22 @@ p {
   .slider-3-pht-1 {
     height:70%;
   }
+
+ 
 }
 
 
-@media screen and (max-height:769px) {
+@media screen and (max-height:801px) {
   .pt-150 {
     padding-top:4%;
   }
 
   .pt-160 {
     padding-top:4%;
+  }
+
+  .ratio-2 {
+    height:60%;
   }
 
   .slider-6-pht {
@@ -728,9 +757,9 @@ p {
   left:0;
 }
 
-.slide-1-start {
-  top: 24%;
-  left: 14%;
+.tooltip {
+  margin-bottom:0 !important;
+  margin-left:0 !important;
 }
 
 
